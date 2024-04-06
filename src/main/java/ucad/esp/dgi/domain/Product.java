@@ -21,7 +21,7 @@ public class Product {
     private String image;
     private double price;
 
-    @OneToMany(cascade=CascadeType.PERSIST, mappedBy="order")
+    @OneToMany(cascade=CascadeType.PERSIST, mappedBy="product")
     private List<Item> items;
 
     public Product(){}
