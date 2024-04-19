@@ -26,7 +26,6 @@ public class Item {
 
     public Item(){}
 
-    
 
     public Item(int quantity, double price, Order order, Product product) {
         this.quantity = quantity;
@@ -34,7 +33,6 @@ public class Item {
         this.order = order;
         this.product = product;
     }
-
 
 
     public int getQuantity() {
